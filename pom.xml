@@ -37,13 +37,18 @@
 				
 			</plugin>
 	</plugins>
-<distributionManagement>
+ <distributionManagement>
   <repository>
      <id>deployment</id>
      <name>Internal Releases</name>
-     <url>http://192.168.177.145:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
+     <url>http://192.168.177.145:8080/nexus-2.11.4-01/content/repositories/releases/</url>
   </repository>
-</distributionMangement>
+  <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://192.168.177.145:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
 
   </build>
 </project>
