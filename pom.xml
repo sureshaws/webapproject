@@ -15,6 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
 <distributionManagement>
   <repository>
      <id>deployment</id>
@@ -27,6 +28,7 @@
      <url>http://192.168.177.145:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
+
   <build>
     <finalName>Webapp</finalName>
 	<plugins>
