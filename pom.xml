@@ -28,13 +28,6 @@
 					<target>1.7</target>
 				</configuration>
 	</plugin>
-<distributionManagement>
-  <repository>
-     <id>deployment</id>
-     <name>Internal Releases</name>
-     <url>http://192.168.177.145:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
-  </repository>
-</distributionMangement>
 	
 	<!-- Make this jar executable -->
 			<plugin>
@@ -44,5 +37,13 @@
 				
 			</plugin>
 	</plugins>
+<distributionManagement>
+  <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://192.168.177.145:8080/nexus-2.11.4-01/content/repositories/snapshots/</url>
+  </repository>
+</distributionMangement>
+
   </build>
 </project>
